@@ -23,6 +23,25 @@
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
 	</head>
+
+	<style type="text/css">
+		.video-container {
+		    position: relative;
+		    padding-bottom: 56.25%;
+		    padding-top: 30px; height: 0; overflow: hidden;
+		}
+		 
+		.video-container iframe,
+		.video-container object,
+		.video-container embed {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		}
+	</style>
+	
 	<body>
 
 		<!-- Nav -->
@@ -44,7 +63,9 @@
 						<div class="8u">
 							<h1>VIII Semana de</h1>
 							<h1> Engenharia de Produção</h1>
-							<iframe width="711" height="400" src="https://www.youtube.com/embed/75zJP7AKD90?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+							<div class="video-container">
+								<iframe width="711" height="400" src="https://www.youtube.com/embed/75zJP7AKD90?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+							</div>
 						</div>
 						<div class="4u" style="padding-top:9em!important">
 							<h1>28, 29, 30 </h1>
