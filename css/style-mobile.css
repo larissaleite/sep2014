@@ -168,20 +168,6 @@
 		white-space: nowrap;
 	}
 	
-	/*
-	Label the data
-	*/
-	#table-palestras:nth-of-type(1):before { content: "Palestrante"; }
-	#table-palestras:nth-of-type(2):before { content: "Data"; }
-		#table-palestras:nth-of-type(3):before { content: "Horário"; }
-		#table-palestras:nth-of-type(4):before { content: "Preço"; }
-		#table-palestras:nth-of-type(5):before { content: "Vagas"; }
-
-		#table-vistas:nth-of-type(1):before { content: "Empresa"; }
-	#table-visitas:nth-of-type(2):before { content: "Data"; }
-		#table-visitas:nth-of-type(3):before { content: "Horário"; }
-		#table-visitas:nth-of-type(4):before { content: "Preço"; }
-		#table-visitas:nth-of-type(5):before { content: "Vagas"; }
 /*********************************************************************************/
 /* Wrappers                                                                      */
 /*********************************************************************************/
