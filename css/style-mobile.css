@@ -152,8 +152,9 @@
 	td { 
 		/* Behave  like a "row" */
 		border: none;
-		border-bottom: 1px solid #eee; 
+		border: 1px solid #eee; 
 		position: relative;
+		padding-top:5px;
 		text-align: center;
 	}
 	
