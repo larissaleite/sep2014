@@ -138,6 +138,7 @@
 /* Force table to not be like tables anymore */
 	table, thead, tbody, th, td, tr { 
 		display: block; 
+		border: 1px solid #eee;
 	}
 	
 	/* Hide table headers (but not display: none;, for accessibility) */
@@ -152,7 +153,7 @@
 	td { 
 		/* Behave  like a "row" */
 		border: none;
-		border: 1px solid #eee; 
+		border-bottom: 1px solid #eee; 
 		position: relative;
 		padding-top:5px;
 		text-align: center;
