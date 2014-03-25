@@ -138,6 +138,7 @@
 /* Force table to not be like tables anymore */
 	table, thead, tbody, th, td, tr { 
 		display: block; 
+		text-align: center;
 	}
 	
 	/* Hide table headers (but not display: none;, for accessibility) */
