@@ -231,3 +231,9 @@
 		font-size: 1em;
 		margin: 0;
 	}
+
+	.landing-page {
+		background-image: url('LOGO - SEP.jpg');
+			background-repeat: no-repeat;
+			width: 50%;
+	}
