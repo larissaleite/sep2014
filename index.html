@@ -25,7 +25,19 @@
 			$('.wrapper').css('display', 'block');
 		});
 
+			 window.addEventListener("orientationchange", function() {
+			// Announce the new orientation number
+				alert(window.orientation);
+				if (window.orientation == 0) {
+					$('.landing-page').css('background-image', "url('logo-sep-mobile.jpg') !important");
+				} else {
+					$('.landing-page').css('background-image', "url('LOGO - SEP.jpg') !important");
+				}
+			}, false);
+
 		});
+
+
 
 	</script>
 
