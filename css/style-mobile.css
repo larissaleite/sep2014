@@ -157,6 +157,7 @@
 		position: relative;
 		padding-top:5px;
 		text-align: center;
+		display: block;
 	}
 	
 	td:before { 
