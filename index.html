@@ -42,10 +42,13 @@
 			background-size: cover;
 		}
 
-		@media (max-width: 480px) {
+		@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
     		.landing-page {
 
-		background-image: url('logo-sep-mobile.jpg');
+		background-image: url('logo-sep-mobile.jpg') !important;
+		height: 100%;
+		background-repeat: no-repeat;
 
     		}
 		}
