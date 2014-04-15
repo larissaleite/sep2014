@@ -26,8 +26,6 @@
 		});
 
 			 window.addEventListener("orientationchange", function() {
-			// Announce the new orientation number
-				alert(window.orientation);
 				if (window.orientation == 0) {
 					$('.landing-page').css('background-image', "url('logo-sep-mobile.jpg') !important");
 				} else {
@@ -62,6 +60,10 @@
 		height: 100%;
 		background-repeat: no-repeat;
 
+    		}
+
+    		.landing-page > button {
+    			margin-top: 80%;
     		}
 		}
 
